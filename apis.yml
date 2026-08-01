@@ -1,8 +1,25 @@
 aid: spybiotech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spybiotech.png
 name: SpyBiotech
-description: 'SpyBiotech is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'SpyBiotech is a clinical-stage biotechnology company developing next-generation
+  vaccines against infectious diseases and cancer using its proprietary SpyTag/SpyCatcher
+  "protein superglue" platform. The technology snaps target antigens onto virus-like
+  particles (VLPs) to produce highly immunogenic vaccines with greater ease and speed.
+  An Oxford University spinout backed by GV, its pipeline includes candidates such as
+  SpyVLP01 targeting human cytomegalovirus (hCMV). This is a company profile in the
+  API Evangelist network; SpyBiotech publishes a corporate marketing website but no
+  public developer or product API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/spybiotech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Vaccines
+- Immunology
+- Pharmaceuticals
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://spybiotech.com
+  url: https://spybiotech.com
+- type: Blog
+  url: https://spybiotech.com/news/
+- type: PrivacyPolicy
+  url: https://spybiotech.com/privacy-notice/
+- type: DomainSecurity
+  url: security/spybiotech-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
